@@ -6,6 +6,6 @@
  $fornavn=$_POST ["fornavn];
  $etternavn=$_POST ["etternavn];
 
-print ("god dag amir $fornavn $etternavn <br />");
+print ("god dag $fornavn $etternavn <br />");
 ?>
 
