@@ -1,4 +1,4 @@
-<?php  /*eksempel-matte2.php */
+<?php  /* Eksempel-matte2.php */
 /*
 /* Programmet mottar fra et HTML-skjema et svar på spørmålet "hva er 3 ganger 3 ?"
 /* Programmet sjekker om svaret er riktig og skirver ut en melding ang. svaret 
