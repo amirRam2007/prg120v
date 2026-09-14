@@ -1,38 +1,37 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>eksempel-matte2.html</title>
+  <title>Eksempel 2</title>
 </head>
-  <body>
-    <h3>eksempel-matte2.html 2</h3>
-    <form method="post" action="" id="eksempel2" name="eskempel2">
-      hva er 3 ganger 3 ? <input type="text" id="svar name="svar" required /> >br />
-      <input type="reset" value="next" id="fortsett" name="forsett" />
-      <input Type="reset" value="nullstill" name"nullstill" id="nullstill"/> <br />
-    </form>
-  </body>
+<body>
+  <h3>Eksempel 2</h3>
+    
+  <form method="post" action="" id="eksempel2" name="eksempel2">
+    Hva er 3 ganger 3 ? <input type="text" id="svar" name="svar" required  /> <br />
+    <input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
+    <input type="reset" value="Nullstill" name="nullstill" id="nullstill" /> <br />
+  </form>
+</body>
 </html>
 
-<?php  /* Eksempel-matte2.php */
+<?php     /* Eksempel 2 */
 /*
-/* Programmet mottar fra et HTML-skjema et svar på spørmålet "hva er 3 ganger 3 ?"
-/* Programmet sjekker om svaret er riktig og skirver ut en melding ang. svaret 
-/* Meldingen skrives ut på samme side som HTML-skemaet er 
-*/ 
-if (isset($_POST ["fortsett"]))
-{
-  $svar=$_POST ["svar"];
- 
-  if ($svar == 9)
-  {
-    print("riktig. 3 ganger 3 er 9 ");
-  }
-  else
-  {
-    print ("feil. 3 ganger 3 er ikke $svar. 3 ganger 3 er 9 ");
-  }
-}
+/*    Programmet mottar fra et HTML-skjema et svar på spørsmålet "Hva er 3 ganger 3 ?"
+/*    Programmet sjekker om svaret er riktig og skriver ut en melding ang. svaret 
+/*    Meldingen skrives ut på samme side som HTML-skjemaet er
+*/
+  if (isset($_POST ["fortsett"])) 
+    {
+      $svar=$_POST ["svar"];
+	
+      if ($svar == 9)  
+        {
+          print("Riktig. 3 ganger 3 er 9 ");
+        }
+      else 
+        {
+          print("Feil. 3 ganger 3 er ikke  $svar. 3 ganger 3 er 9 ");
+        }
+    }
 ?>
-  
-    
