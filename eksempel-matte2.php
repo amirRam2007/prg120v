@@ -1,22 +1,20 @@
-<?php  /* Eksempel-matte2.php */
+<?php     /* Eksempel2 */
 /*
-/* Programmet mottar fra et HTML-skjema et svar på spørmålet "hva er 3 ganger 3 ?"
-/* Programmet sjekker om svaret er riktig og skirver ut en melding ang. svaret 
-/* Meldingen skrives ut på samme side som HTML-skemaet er 
-*/ 
-if (isset($_POST ["fortsett"]))
-{
-  $svar=$_POST ["svar"];
- 
-  if ($svar == 9)
-  {
-    print("riktig. 3 ganger 3 er 9 ");
-  }
-  else
-  {
-    print ("feil. 3 ganger 3 er ikke $svar. 3 ganger 3 er 9 ");
-  }
-}
+/*    Programmet mottar fra et HTML-skjema et svar på spørsmålet "Hva er 3 ganger 3 ?"
+/*    Programmet sjekker om svaret er riktig og skriver ut en melding ang. svaret 
+/*    Meldingen skrives ut på samme side som HTML-skjemaet er
+*/
+  if (isset($_POST ["fortsett"])) 
+    {
+      $svar=$_POST ["svar"];
+	
+      if ($svar == 9)  
+        {
+          print("Riktig. 3 ganger 3 er 9 ");
+        }
+      else 
+        {
+          print("Feil. 3 ganger 3 er ikke  $svar. 3 ganger 3 er 9 ");
+        }
+    }
 ?>
-  
-    
