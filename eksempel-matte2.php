@@ -4,7 +4,7 @@
 /* Programmet sjekker om svaret er riktig og skirver ut en melding ang. svaret 
 /* Meldingen skrives ut på samme side som HTML-skemaet er 
 */ 
-if (isset($_POST ["forsett"]))
+if (isset($_POST ["fortsett"]))
 {
   $svar=$_POST ["svar"];
  
