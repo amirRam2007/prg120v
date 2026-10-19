@@ -2,7 +2,7 @@
 /*
 /*    Programmet deler opp en tekststreng ved bruk av oppdelingsfunksjonen explode
 */
-  $tekst="Geir Bjarvin Universitetslektor USN";
+  $tekst="amir ramadan anton sport usn";
   
   $del=explode (" " , $tekst);     
   $fornavn=$del[0];     
