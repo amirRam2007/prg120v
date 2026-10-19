@@ -1,3 +1,4 @@
+
 <?php
 /* Eksempel 2 */
 
@@ -14,5 +15,4 @@ $etternavn = $_POST["etternavn"];
 $navn = fulltNavn($fornavn, $etternavn);
 
 print("Navnet er $navn");
-
 ?>
