@@ -13,6 +13,6 @@
   print ("Hele tekststrengen er: $tekst <br /> <br />");
   print ("Fornavn er:  $fornavn <br />");
   print ("Etternavn er:  $etternavn <br />");
-  print ("Yrke er er:  $yrke <br />");
+  print ("Yrke er:  $yrke <br />");
   print ("Arbeidssted er:  $arbeidssted <br />");
 ?>
